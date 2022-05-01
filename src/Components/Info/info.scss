@@ -1,0 +1,57 @@
+.intro {
+  height: 300px;
+  width: 100%;
+
+  padding: 25px;
+
+  .top {
+    display: flex;
+    flex-direction: column;
+
+    .head {
+      font-size: 20px;
+    }
+
+    .details {
+      margin-top: 5px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+
+    .right {
+      margin-left: 55px;
+      flex: 1;
+
+      .info {
+        margin-top: 5px;
+        height: 100px;
+        width: 250px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .title {
+        font-weight: bold;
+        margin-top: 5px;
+      }
+
+      .title-desc {
+        margin-top: 5px;
+        color: gray;
+      }
+    }
+
+    .left {
+      flex: 1;
+
+      .options {
+        margin-top: 10px;
+      }
+    }
+  }
+}

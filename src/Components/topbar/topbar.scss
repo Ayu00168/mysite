@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  height: 120px;
+  .wrapper {
+    padding: 20px;
+
+    .top {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 1150px;
+      }
+
+      .name {
+        margin-left: 10px;
+        font-weight: 500;
+      }
+
+      .icon {
+        margin-left: 15px;
+        color: gray;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      margin-top: 50px;
+      .bottomDesc {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+
+        .desc {
+          margin-left: 5px;
+          color: gray;
+          cursor: pointer;
+
+          &.active {
+            color: red;
+            text-decoration: underline;
+          }
+        }
+        &:hover {
+          .desc {
+            color: red;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .hr {
+        margin-left: 5px;
+        color: gray;
+      }
+    }
+
+    .right {
+      display: flex;
+
+      .rightDesc {
+        margin-left: 800px;
+        display: flex;
+        align-items: center;
+
+        .rightIcon {
+          color: gray;
+        }
+
+        span {
+          margin-left: 5px;
+          color: gray;
+        }
+      }
+    }
+  }
+}
